@@ -3,7 +3,6 @@ plotly-express==0.4.1
 seaborn==0.9.0
 folium==0.10.0
 itsdangerous==1.1.0
-Jinja2==2.10.1
 MarkupSafe==1.1.1
 matloptlib>=1.0.0
 numpy==1.18.1
