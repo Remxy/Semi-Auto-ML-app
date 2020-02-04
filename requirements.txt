@@ -9,6 +9,6 @@ MarkupSafe==1.1.1
 Werkzeug==0.15.5
 scipy>=0.15.1
 scikit-learn>=0.18
-matloptlib==3.2.0
+matloptlib>=2.4.2
 numpy==1.18.1
 pandas==0.25.3
