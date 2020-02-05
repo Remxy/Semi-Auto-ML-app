@@ -6,7 +6,6 @@ itsdangerous==1.1.0
 MarkupSafe==1.1.1
 numpy==1.18.1
 pandas==0.25.3
-Python==3.6.10
 setuptools
 cycler>=0.10.0
 dateutil>=2.1
