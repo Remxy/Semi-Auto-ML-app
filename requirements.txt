@@ -11,7 +11,6 @@ cycler>=0.10.0
 kiwisolver>=1.0.0
 Pillow>=3.4
 pyparsing
-PySide>=1.0.3
 PyQt5
 PyGObject
 wxPython>=4
