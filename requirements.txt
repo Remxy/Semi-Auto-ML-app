@@ -8,7 +8,6 @@ numpy==1.18.1
 pandas==0.25.3
 setuptools
 cycler>=0.10.0
-dateutil>=2.1
 kiwisolver>=1.0.0
 Pillow>=3.4
 pyparsing
