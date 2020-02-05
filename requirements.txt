@@ -48,5 +48,5 @@ WTForms==2.2.1
 pytest
 ffmpeg
 LaTeX
-matloptlib
+matplotlib>=3.1.2
 matplotlib.pyplot
