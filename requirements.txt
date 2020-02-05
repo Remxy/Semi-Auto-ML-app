@@ -47,7 +47,6 @@ wincertstore==0.2
 WTForms==2.2.1
 pytest
 ffmpeg
-Inkscape
 LaTeX
 GhostScript>=9.0
 matloptlib>=3.1.2
