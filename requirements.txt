@@ -49,5 +49,5 @@ pytest
 ffmpeg
 LaTeX
 matplotlib>=3.1.2
-libgirepository==1.0
+libgirepository1.0
 
