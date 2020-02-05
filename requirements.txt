@@ -47,7 +47,6 @@ wincertstore==0.2
 WTForms==2.2.1
 pytest
 ffmpeg
-avconv
 ImageMagick
 Inkscape
 LaTeX
