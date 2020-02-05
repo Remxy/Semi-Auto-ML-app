@@ -11,7 +11,7 @@ cycler>=0.10.0
 kiwisolver>=1.0.0
 Pillow>=3.4
 pyparsing
-Tk>=8.3
+Tk>=8.6.0
 PyQt4>=4.6
 PySide>=1.0.3
 PyQt5
