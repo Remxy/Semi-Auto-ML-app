@@ -23,11 +23,11 @@ from sklearn.svm import SVC
 
 
 def main():
-    """Semi Auto ML App with Streamlit"""
+    """Semi Auto ML App powered by Streamlit"""
     
     
     st.title("Semi Auto ML App")
-    st.text("Using Streamlit == 0.52.1+")
+    st.text("Using Streamlit v0.52.1+")
     
     activities = ["EDA", "Plot", "Model Building", "About"]
     
