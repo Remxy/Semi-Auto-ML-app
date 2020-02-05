@@ -48,5 +48,4 @@ WTForms==2.2.1
 pytest
 ffmpeg
 LaTeX
-GhostScript>=9.0
 matloptlib>=3.1.2
