@@ -49,5 +49,5 @@ ffmpeg
 LaTeX
 matplotlib>=3.1.2
 PyGObject==3.30.2
-gunicon
+gunicorn==20.0.4
 
