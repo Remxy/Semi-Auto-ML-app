@@ -1,17 +1,13 @@
 #Core packages
 import streamlit as st
-
-
 #EDA Pkgs
 import pandas as pd
 import numpy as np
-
 #Data Visualization packages
 import matplotlib.pyplot as plt
 import matplotlib
 matplotlib.use('Agg')
 import seaborn as sns
-
 #ML packages
 from sklearn import model_selection
 from sklearn.linear_model import LogisticRegression
@@ -21,10 +17,8 @@ from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
 
-
 def main():
-    """Semi Automatic ML App powered by Streamlit"""
-    
+    """Semi Automatic ML App powered by Streamlit"""    
     
     st.title("Semi Automatic ML App")
     st.text("Using Streamlit v0.52.1+")
@@ -57,8 +51,7 @@ def main():
                 st.write(df.describe())
                 
             if st.checkbox("Show Value Counts"):
-                st.write(df.iloc[:, -1].value_counts())
-        
+                st.write(df.iloc[:, -1].value_counts())        
        
     elif choice == 'Plot':
         st.subheader("Data Visualization")
@@ -78,9 +71,7 @@ def main():
             columns_to_plot = st.selectbox("Select 1 Column", all_columns)
             pie_plot = df[columns_to_plot].value_counts().plot.pie(autopct="%1.1f%%")
             st.write(pie_plot)
-            st.pyplot()
-            
-        
+            st.pyplot()  
    
         all_columns_names = df.columns.tolist()
         type_of_plot = st.selectbox("Select Type of Plot", ["area", "bar", "line", "hist", "box", "kde"])
@@ -155,15 +146,11 @@ def main():
         
         #Create JSON box
             if st.checkbox("Metrics as JSON"):
-                st.json(all_models)
-        
-        
+                st.json(all_models)       
         
     elif choice == 'About':
         st.subheader("About")
-        st.text("This is a Drag and Drop Semi Auto Machine Learning App built using Streamlit and Python")
-    
+        st.text("This is a Drag and Drop Semi Auto Machine Learning App built using Streamlit and Python")    
     
 if __name__ == "__main__":
-    main()
- 
+    main() 
