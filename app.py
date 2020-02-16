@@ -23,10 +23,10 @@ from sklearn.svm import SVC
 
 
 def main():
-    """Semi Auto ML App powered by Streamlit"""
+    """Semi Automatic ML App powered by Streamlit"""
     
     
-    st.title("Semi Auto ML App")
+    st.title("Semi Automatic ML App")
     st.text("Using Streamlit v0.52.1+")
     
     activities = ["EDA", "Plot", "Model Building", "About"]
@@ -165,40 +165,5 @@ def main():
     
     
 if __name__ == "__main__":
- main()
+    main()
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#Followed Tutorial by JChris
