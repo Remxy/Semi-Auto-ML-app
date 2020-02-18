@@ -150,7 +150,7 @@ def main():
         
     elif choice == 'About':
         st.subheader("About")
-        st.text("This is a Drag and Drop Semi Auto Machine Learning App built using Streamlit and Python")    
+        st.text("")    
     
 if __name__ == "__main__":
     main() 
